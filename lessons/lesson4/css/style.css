@@ -1,0 +1,66 @@
+			html, body{
+				scroll-behavior: smooth;
+			}
+
+			div{
+				color:red;
+				font-size:25px;
+				text-align:justify;
+				line-height:45px;
+				font-weight:800;
+				background:yellow;
+				width:200px;
+				margin: 30px auto;
+				padding: 50px;
+				border:10px solid green;
+				box-sizing: border-box;
+			}
+
+			h1+h2.someHead{
+				background: orange;
+			}
+
+			h2{
+				background: purple;
+			}
+
+			.anotherHead{
+				color: red!important;
+			}
+
+			span+span{background: red}
+
+
+
+			h1#some_id.anotherHead{
+				background: lime!important;
+			}
+
+			.someHead{
+				color: pink;
+				background: blue;
+			}
+
+
+
+			h2.someHead.anotherHead.third{
+				border: 5px solid yellow;
+			}
+
+			div.someHead.anotherHead.third{
+				border: 20px dotted orange;
+			}
+
+			.wrapper{
+				width: 1200px;
+				background: pink;
+			}
+
+			a{
+				color: green;
+				text-decoration: underline;
+			}
+
+			img{
+				width: 200px;
+			}

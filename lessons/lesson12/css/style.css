@@ -1,0 +1,179 @@
+/*reset*/
+			html, body, div, span, applet, object, iframe,
+			h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+			a, abbr, acronym, address, big, cite, code,
+			del, dfn, em, img, ins, kbd, q, s, samp,
+			small, strike, strong, sub, sup, tt, var,
+			b, u, i, center,
+			dl, dt, dd, ol, ul, li,
+			fieldset, form, label, legend,
+			table, caption, tbody, tfoot, thead, tr, th, td,
+			article, aside, canvas, details, embed, 
+			figure, figcaption, footer, header, hgroup, 
+			menu, nav, output, ruby, section, summary,
+			time, mark, audio, video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article, aside, details, figcaption, figure, 
+			footer, header, hgroup, menu, nav, section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			blockquote, q {
+				quotes: none;
+			}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+
+			html, body{
+				scroll-behavior: smooth;
+			}
+
+
+			.clearfix:after{
+				content: "";
+				clear: both;
+				display: block;
+			}
+
+/*main*/
+
+			.wrapper{
+				background: pink;
+				width: 1200px;
+				margin: 0 auto;
+				min-height: 500px;
+				padding: 100px 10px;
+				position: relative;
+				color: #fff;
+				font-size: 30px;
+			}
+
+			.wrapper>div{
+				margin: 0 50px 50px;
+			}
+
+			.test01{
+				background: red;
+				width: 300px;
+				height: 300px;
+			}
+
+			.test02{
+				background: blue;
+				width: 300px;
+				height: 300px;
+				border-radius: 50px;
+			}
+
+			.test03{
+				border: 20px solid yellow;
+				width: 300px;
+				height: 300px;
+				border-radius: 50px 150px;
+			}
+
+			.test04{
+				background: green;
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+			}
+
+			.test05{
+				background: orange;
+				height: 300px;
+				border-radius: 80% 40% 0 0 / 200px 100px 0 0;
+			}
+
+
+			.test06{
+				background: grey;
+				height: 300px;
+				width: 300px;
+				border-left: 100px solid green;
+				border-top: 100px solid yellow;
+				border-bottom: 100px solid red;
+				border-right: 100px solid blue;
+			}
+
+			.test07{
+				background: grey;
+				width: 300px;
+				border-left: 100px solid rgba(0,0,0,0);
+				border-bottom: 100px solid red;
+				border-right: 100px solid transparent;
+			}
+
+			.test08{
+				background: grey;
+				width: 0;
+				border-left: 100px solid rgba(0,0,0,0);
+				border-bottom: 100px solid green;
+				border-right: 100px solid transparent;
+			}
+
+			.test09{
+				background: grey;
+				width: 0;
+				border-left: 100px solid green;
+				border-top: 100px solid yellow;
+				border-bottom: 100px solid red;
+				border-right: 100px solid blue;
+			}
+
+			.test10{
+				background: grey;
+				height: 300px;
+				width: 300px;
+				border-left: 100px solid green;
+				border-top: 100px solid yellow;
+				border-bottom: 100px solid red;
+				border-right: 100px solid blue;
+				border-radius: 50%;
+			}
+
+			.test11{
+				background: grey;
+				height: 300px;
+				width: 300px;
+				/*border-left: 100px solid green;*/
+				border-top: 100px solid yellow;
+				border-bottom: 100px solid red;
+				/*border-right: 100px solid blue;
+*/				border-radius: 50%;
+box-sizing: border-box;
+			}
+
+			.test12{
+				background: grey;
+				height: 300px;
+				width: 300px;
+				border-left: 100px solid green;
+				border-top: 100px solid yellow;
+				/*border-bottom: 100px solid red;
+				border-right: 100px solid blue;
+*/				border-radius: 50%;
+
+			}
+
+
+			
